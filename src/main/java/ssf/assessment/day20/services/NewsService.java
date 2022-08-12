@@ -25,8 +25,6 @@ public class NewsService {
 
     }
 
-   
-
     public List<String> getArticles (String news, String latestNewsArticlesEndpoint) {
         List<String> result = new LinkedList<>();
     
