@@ -18,7 +18,7 @@ public class NewsRestController {
     private NewsService newsSvc;
 
     @GetMapping(path="{id}")
-    public ResponseEntity<String> getNews (
+    public ResponseEntity<String> getArticles (
         @PathVariable (name = "id") String id) {
             
             
